@@ -3,7 +3,7 @@ import { View, StyleSheet, Text } from "react-native";
 import { TodoList } from "./TodoList";
 import { AddTodo } from "./AddTodo";
 
-export const Todo = () => {
+export const TodoApp = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Todo App</Text>
