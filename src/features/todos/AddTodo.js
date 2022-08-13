@@ -13,12 +13,12 @@ export const AddTodo = () => {
   }
 
   return (
-    <View style={StyleSheet.container}>
+    <View style={styles.container}>
       <TextInput
         placeholder="Todo"
         value={text}
         onChangeText={setText}
-        style={StyleSheet.input}
+        style={styles.input}
       />
       <Button title="Add" onPress={handleSubmit} />
     </View>
